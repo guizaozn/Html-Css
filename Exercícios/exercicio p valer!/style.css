@@ -1,0 +1,76 @@
+@charset   "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+   
+    background-image: linear-gradient(180deg, #034748, #0CAADC);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}	
+main {
+    width: 500px;
+    background-color:#DFD9E2 ;
+    margin: auto;
+    align-items: center;
+    height: 720px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px #023233;
+
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #000000;
+    text-shadow: 1px 1px #6a686b;
+    font-weight: 600;
+    font-style: italic;
+    
+}
+p {
+    text-indent: 30px;
+    font-size: 1.5em;
+    text-align: justify;
+    color: #000000;
+}
+ #fotinha{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+   
+}
+h2 {
+    font-size: 2em;
+    text-align: left;
+    color: #000000;
+    text-shadow: 1px 1px #6a686b;
+    font-weight: 500;
+    font-style: italic;
+}
+div{
+  
+    width: 50px;
+    text-align: center;
+    float: center;
+}
+
+div > p { 
+display: none;
+text-align: center;
+text-align: justify;
+
+}
+div:hover > p {
+display: block;
+background-color: #DFD9E2;
+font-size: small;
+white-space: nowrap;
+}
