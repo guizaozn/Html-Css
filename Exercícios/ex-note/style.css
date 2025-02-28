@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: #5e1e1ed7;
+
+
+
+}
+
+p {
+
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to bottom,#681313, #bd2525);
+    color: black;
+    padding: 20px;
+    margin: 0;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header h2 { 
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+header nav a {
+    margin-top: 10px;
+    color: black;                 
+    padding: 10px;
+    margin-left: 20px;
+    
+}
+
+header nav a:hover {
+
+    background-color: #7a1818;      
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425);
+}
+
+main {
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 800px;
+    background-color: rgb(233, 232, 235);
+}
+
+main h3 {
+    
+    margin-left: 10px;
+    padding: 9px;
+    background-image: linear-gradient(to right,#bd2525, transparent );
+}
